@@ -51,7 +51,7 @@
                         }
                         else {
                             element.style.outline = "";
-                            element.style.zIndex = 0;
+                            element.style.zIndex = "";
                         }
                     }
                 }
