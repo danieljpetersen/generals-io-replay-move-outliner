@@ -7,6 +7,7 @@
 // @match        https://generals.io/replays/*
 // @match        https://*.generals.io/replays/*
 // @grant        none
+// @icon         https://generals.io/favicon/favicon-32x32.png
 // ==/UserScript==
 
 
