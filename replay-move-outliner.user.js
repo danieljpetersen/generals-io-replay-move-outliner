@@ -21,6 +21,10 @@
     const observer = new MutationObserver(mutations => {
         let turnCounterNode = document.getElementById("turn-counter");
 
+        if (String(window.location).includes("replay") == false) {
+            observer.unobserve();
+        }
+
         if (turnCounterNode !== null) {
             let updatedTurnNumber = turnCounterNode.innerText.substr(4, turnCounterNode.innerText.length-1);
 
